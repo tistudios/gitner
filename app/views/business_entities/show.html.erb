@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @business_entity.title %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @business_entity.url %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @business_entity.name %>
+</p>
+
+<p>
+  <strong>Founded:</strong>
+  <%= @business_entity.founded %>
+</p>
+
+<%= link_to 'Edit', edit_business_entity_path(@business_entity) %> |
+<%= link_to 'Back', business_entities_path %>
